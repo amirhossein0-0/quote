@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #48cae4;
+    font-family: 'Mouse Memoirs';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    background-color: #fff;
+    width: 700px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.content-box {
+    padding: 15px;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+.quote {
+    display: flex;
+}
+
+#left-quote {
+    align-self: start;
+    margin-right: 8px;
+    width: 30px;
+}
+
+#right-quote {
+    align-self: end;
+    margin-left: 8px;
+    width: 30px;
+}
+
+.author {
+    text-align: end;
+    margin-top: 15px;
+}
+
+.author span {
+    font-size: 1.6rem;
+    font-family: 'Inspiration' ;
+}
+
+.content p {
+    font-size: 2.3rem;
+    text-align:justify;
+}
+
+.feature-box {
+    margin-top: 55px;
+    margin-bottom: 25px;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-box img {
+    cursor: pointer;
+    margin: 0 10px 0 5px;
+    width: 32px;
+}
+
+.feature-box button {
+    cursor: pointer;
+    border: none;
+    background: #48cae4;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    color: #48cae4;
+    background-color: rgb(248, 230, 230);
+}
